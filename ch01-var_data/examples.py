@@ -1,0 +1,33 @@
+
+name = "ada Lovelace"
+print(name.title())
+print(name.lower())
+print(name.upper())
+
+first_name = "ada"
+last_name = "lovelace"
+full_name = f"{first_name} {last_name}"
+print(f"Hello, {full_name.title()}!")
+
+print("Python")
+print("\tPython")
+print("Languages:\nPython\nC\nJavaScript")
+print("Languages:\n\tPython\n\tC\n\tJavaScript")
+
+
+
+favorite_language = ' Python '
+print(favorite_language)
+favorite_language = favorite_language.rstrip()
+print(favorite_language)
+favorite_language = favorite_language.lstrip()
+print(favorite_language)
+favorite_language = favorite_language.strip()
+print(favorite_language)
+
+
+
+nostarch_url = 'https://nostarch.com'
+simple_url = nostarch_url.removeprefix("https://")
+print(simple_url)
+
